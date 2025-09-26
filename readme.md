@@ -1,5 +1,7 @@
 # Claude flow
 
+A simplified version of humanlayer's commands and agents for my own purposes.
+
 Add these directories to your project:
 
 ```
@@ -7,8 +9,12 @@ Add these directories to your project:
 ./thoughts  # storage for tickets, research and plans
 ```
 
-This is taken and slightly modified from:
+## Credits
+
+This is based on:
 https://github.com/humanlayer/humanlayer
+
+Go check it out, it's awesome.
 
 ## Workflow
 
@@ -49,3 +55,7 @@ This reads the plan and gets to coding.
 If your context is getting used up, pause, ask it to take the learnings from the session and incorporate them into the plan so it wouldn't make the same mistakes next time, compact and continue.
 
 The idea is that you should be able to do a git restore, run the revised plan, and get to where you are in one go without all the trial and error and re-prompting.
+
+## License
+
+The sources in this repo are licensed under the Apache 2 License.
